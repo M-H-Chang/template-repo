@@ -15,10 +15,10 @@ module.exports = {
     contentBase: './dist'
   },
   plugins: [
-    new CleanWebpackPlugin(),
     new Dotenv(),
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Shape Tracker',
+      title: 'TITLE',
       template: './src/index.html',
       inject: 'body'
     })
